@@ -1,5 +1,3 @@
-package Geek-O-Lympics;
-
 public class Jul4_subarrayProdlessthank {
      public int countSubArrayProductLessThanK(long a[], int n, long k){
         int count = 0;

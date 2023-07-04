@@ -1,5 +1,3 @@
-import java.util.Scanner;
-import java.util.Arrays;
 public class Jul3_maxIndex{
 /************ Mine(Better) **************/
     int maxIndexDiff(int arr[], int n) {
@@ -17,7 +15,7 @@ public class Jul3_maxIndex{
         return winsize;
     }
 /*********** Optimal **********/
-    int maxIndexDiff(int arr[], int n) {
+    int maxIndexDiff1(int arr[], int n) {
         int winsize = 0;
         int[] left = new int[n];
         int[] right = new int[n];

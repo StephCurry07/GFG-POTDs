@@ -1,4 +1,4 @@
-package Geek-O-Lympics;
+
 
 public class Jul1_countsetbits {
     static int setBits(int N) {
