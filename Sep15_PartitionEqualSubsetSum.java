@@ -1,6 +1,7 @@
+import java.util.Arrays;
+
 class Solution{
-    static int equalPartition(int N, int arr[])
-    {
+    static int equalPartition(int N, int arr[]){
         int sum = Arrays.stream(arr).sum();
         if(sum % 2 != 0)    return 0;
         // System.out.println(sum);
