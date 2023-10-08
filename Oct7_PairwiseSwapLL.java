@@ -1,4 +1,4 @@
-public class Oct8_PairwiseSwapLL {
+public class Oct7_PairwiseSwapLL {
     public Node pairwiseSwap(Node head){
         Node ans = new Node(0);
         Node temp = ans;
